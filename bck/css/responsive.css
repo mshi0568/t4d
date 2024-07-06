@@ -1,0 +1,289 @@
+@media only screen and (min-width: 1171px) and (max-width:2000px) 
+{
+ /*.Go-Dirty {background: url("../images/go-dirty.png") no-repeat scroll left center / cover rgba(0, 0, 0, 0); height: 180px; overflow: hidden; position: absolute; right: 0px; top: -30px; width: 500px; z-index: 100;}*/
+}
+
+@media only screen and (min-width:1201px) and (max-width:1440px) 
+{
+
+
+}
+
+@media only screen and (min-width:1001px) and (max-width:1250px) 
+{
+
+
+
+}
+
+
+@media only screen and (min-width:768px) and (max-width:1000px)
+{
+
+    .ans-sec                            {width:360px;}
+    .brain-sec                          {width:420px; float: right;}
+    .img-right img                      {width: 100%;}        
+    .brain-in1 img                      {width:auto; max-width:100%;}
+    .brain-in-1 .Frontal-Lobe           {left:0; top:105px;}
+    .brain-in-1 .Temporal-Lobe          {left: 115px; top: 180px;}
+    .brain-in-1 .Parietal-Lobe          {width:60px; top:60px; right:145px;}
+    .brain-in-1 .Brain-Stem             {bottom: 60px; right:130px; width: 50px;}    
+    .brain-in-1 .Cerebellum             {bottom: 135px; right: 95px;}       
+    .brain-in-1 .Occipital-Lobe         {right: 55px; text-align: center; width: 75px;} 
+    .brain-in                           {margin-top: 0;}
+    .in-descriptioion                   {width:77%;}
+    .in-descriptioion p                 {font-size: 20px; line-height:25px;}
+    .in-descriptioion ul li             {font-size:20px;} 
+    
+    .left-sec                           {width:36%;}
+    .right-sec                          {width:60%;}
+    
+    .home-home-brain img                {width:450px;}
+    .home-in-1                          {width:480px; margin: 0 auto; position: relative;}
+    .Frontal-Lobe                       {left:0px; top:5px; }
+    .Parietal-Lobe                      {right:20px; top:20px;}
+    .Temporal-Lobe                      {left:60px; top:250px;}
+    .Brain-Stem                         {left:190px; bottom:0px;}    
+    .Cerebellum                         {bottom: 78px; right: 20px;}
+    .Occipital-Lobe                     {right:-87px;}
+    .wrapper-1 .home-close              {top:-40px;}
+    .wrapper                            {height: 100% !important;}
+
+	.readnote							{width:210px;}
+    
+    
+}
+@media only screen and (min-width: 641px) and (max-width:767px) 
+{
+
+     .ans-sec                            {width:640px; float: none; margin: 0 auto;}
+    .brain-sec                          {width:520px; float: none; margin: 0 auto;}
+    .img-right img                      {width: 100%;}        
+    .brain-in1 img                      {width:auto; max-width:100%;}
+    .brain-in-1 .Frontal-Lobe           {left:0; top:135px;}
+    .brain-in-1 .Temporal-Lobe          {left: 145px; top: 230px;}
+    .brain-in-1 .Parietal-Lobe          {width:60px; top:100px; right:145px;}
+    .brain-in-1 .Brain-Stem             {bottom: 68px; right:156px; width: 50px;}    
+    .brain-in-1 .Cerebellum             {bottom: 150px; right: 130px;}       
+    .brain-in-1 .Occipital-Lobe         {right: 65px; text-align: center; width: 75px;} 
+    .next-1                             {float: none; margin: 0 auto;}
+    .next-1 a                           {float: none; margin: 0 auto;}
+    .brain-in                           {margin-top: 0;}
+    .in-descriptioion                   {width:77%;}
+    .in-descriptioion p                 {font-size: 20px; line-height:25px;}
+    .in-descriptioion ul li             {font-size:20px;}   
+    
+    .left-sec                           {width:83%; float: none; margin: 30px auto 0 auto;}
+    .right-sec                          {width:450px; margin: 0 auto; float: none;}
+    .click-me                           {margin: 0 auto; padding-left: 0; width: 300px;}
+    .click-me-1                         {background-size: cover; width:90px; height:110px; font-size: 15px; line-height: 20px; padding-top:25px;}
+    .in-brain .Frontal-Lobe             {line-height: 14px; width:60px; }
+    .in-brain .Temporal-Lobe            {left:90px; line-height: 14px; top:160px;}
+    .in-brain .Brain-Stem               {line-height: 14px; left:190px; top:180px; width:70px;}
+    .in-brain .Cerebellum               {right: -20px; top: 100px;}
+    .in-brain .Occipital-Lobe           {width:60px; right:-10px;}
+    .in-brain .Parietal-Lobe            {line-height: 14px; right:50px; top:14px; width:80px;}
+    .in-sec                             {padding-top:60px;}
+    .home-close                         {top:20px;  }
+    
+    .home-home-brain img                {width:350px;}
+    .home-in-1                          {width:480px; margin: 0 auto; position: relative;}
+    .Frontal-Lobe                       {left:0px; top:5px; }
+    .Parietal-Lobe                      {right:20px; top:20px;}
+    .Temporal-Lobe                      {left:60px; top:188px;}
+    .Brain-Stem                         {left:190px; bottom:0px;}    
+    .Cerebellum                         {bottom: 78px; right: 20px;}
+    .Occipital-Lobe                     {right:-33px;}
+    .wrapper-1 .home-close              {top:-40px;}
+
+.readnote							{margin-left: 24%; width: 50%;}
+    
+}
+
+@media only screen and (min-width: 480px) and (max-width:640px) 
+{
+
+
+    .ans-sec                            {width:480px; float: none; margin: 0 auto;}
+    .brain-sec                          {width:480px; float: none; margin: 0 auto;}
+    .img-right                          {width: 60px;}
+    .img-right img                      {width: 100%;}    
+    .brain-in1 img                      {width:auto; max-width:100%;}
+    .brain-in-1 .Frontal-Lobe           {left:0; top:135px;}
+    .brain-in-1 .Temporal-Lobe          {left: 145px; top: 205px;}
+    .brain-in-1 .Parietal-Lobe          {width:60px; top:90px; right:145px;}
+    .brain-in-1 .Brain-Stem             {bottom: 68px; right:144px; width: 50px;}    
+    .brain-in-1 .Cerebellum             {bottom: 150px; right: 110px;}       
+    .brain-in-1 .Occipital-Lobe         {right: 65px; text-align: center; width: 75px;} 
+    .next-1                             {float: none; margin: 0 auto;}
+    .next-1 a                           {float: none; margin: 0 auto;}
+    .brain-in                           {margin-top: 0;}
+    .in-descriptioion                   {width:77%;}
+    .in-descriptioion p                 {font-size: 20px; line-height:25px;}
+    .in-descriptioion ul li             {font-size:20px;}  
+    
+    .brain-lis ul li a                  {height:35px;width:35px; background-size:cover; line-height: 35px; font-size: 16px; margin: 0 1px 0 0;}
+    .active-ans a                       {height:35px;width:35px; background-size:cover !important;}
+    .brain-lis                          {padding-top:60px; width: auto;}
+    .brain-lis ul li                    {display: inline-block;}
+    .home-close                         {width: 50px; height: 50px; position: relative; float: right;}
+    
+    .left-sec                           {width:83%; float: none; margin: 30px auto 0 auto;}
+    .right-sec                          {width:450px; margin: 0 auto; float: none;}
+    .click-me                           {margin: 0 auto; padding-left: 0; width: 300px;}
+    .click-me-1                         {background-size: cover; width:90px; height:110px; font-size: 15px; line-height: 20px; padding-top:25px;}
+    .in-brain .Frontal-Lobe             {line-height: 14px; width:60px; }
+    .in-brain .Temporal-Lobe            {left:90px; line-height: 14px; top:160px;}
+    .in-brain .Brain-Stem               {line-height: 14px; left:190px; top:180px; width:70px;}
+    .in-brain .Cerebellum               {right: -20px; top: 100px;}
+    .in-brain .Occipital-Lobe           {width:60px; right:-10px;}
+    .in-brain .Parietal-Lobe            {line-height: 14px; right:50px; top:14px; width:80px;}
+    .in-sec                             {padding-top:60px;}
+    .home-close                         {top:-50px;  }
+    
+    .home-in-1                          {width:480px; margin: 0 auto; position: relative;}
+    .Frontal-Lobe                       {left:0px; top:5px; }
+    .Parietal-Lobe                      {right:20px; top:20px;}
+    .Temporal-Lobe                      {left:60px; top:260px;}
+    .Brain-Stem                         {left:160px; bottom:40px;}    
+    .Cerebellum                         {bottom: 78px; right: 20px;}
+    .Occipital-Lobe                     {right:25px;}
+    .Occipital-Lobe a                   {color:#fff;}
+
+	.readnote							{margin-left: 28%; width: 50%;}
+    
+    
+}
+
+@media only screen and (min-width: 361px) and (max-width: 479px) 
+{
+
+    .ans-sec                            {width:360px; float: none; margin: 0 auto;}
+    .brain-sec                          {width:360px; float: none; margin: 0 auto;}
+    .img-right                          {width: 60px;}
+    .img-right img                      {width: 100%;}
+    .popup-1                            {background-size: cover; font-size: 13px; height: 85px; line-height: 18px; width: 100px; padding-top: 15px;}
+    .popup-1 span                       {font-size: 14px;}
+    .popup-2                            {background-size: cover; font-size: 13px; height: 85px; line-height: 18px; width: 100px; padding-top: 15px;}
+    .popup-2 span                       {font-size: 14px;}
+    .close-1                            {height: 30px; width:30px; background-size:cover;}
+    .brain-in1 img                      {width:auto; max-width:100%;}
+    .brain-in-1 .Frontal-Lobe           {left:0; top:85px; font-size: 14px;}
+    .brain-in-1 .Temporal-Lobe          {font-size: 14px;  top: 160px; left: 82px}
+    .brain-in-1 .Parietal-Lobe          {width:60px; top:60px; right:100px; font-size: 14px; }
+    .brain-in-1 .Brain-Stem             {font-size: 14px;  bottom: 44px; right:99px; width: 50px;}    
+    .brain-in-1 .Cerebellum             {bottom: 112px; font-size: 14px; right: 60px;}       
+    .brain-in-1 .Occipital-Lobe         {font-size: 14px; right: 28px; text-align: center; width: 75px;} 
+    .next-1                             {float: none; margin: 0 auto;}
+    .next-1 a                           {float: none; margin: 0 auto;}
+    .brain-in                           {margin-top: 0;}
+    .in-descriptioion                   {width:66%;}
+    .in-descriptioion p                 {font-size: 20px; line-height:25px;}
+    .in-descriptioion ul li             {font-size:20px;}    
+    .brain-lis ul li a                  {height:30px;width:30px; background-size:cover; line-height: 30px; font-size: 16px; margin: 0 1px 0 0;}
+    .active-ans a                       {height:30px;width:30px; background-size:cover !important;}
+    .brain-lis                          {padding-top:60px; width: auto;}
+    .brain-lis ul li                    {display: inline-block;}
+    .home-close                         {width: 50px; height: 50px; position: relative; float: right;}
+    
+    .left-sec                           {width:83%; float: none; margin: 0px auto;}
+    .right-sec                          {width:280px; margin: 0 auto; float: none;}
+    .click-me                           {padding-left: 0px;}
+    .click-me-1                         {background-size: cover; width:90px; height:110px; font-size: 15px; line-height: 20px; padding-top:25px;}
+    .in-brain .Frontal-Lobe             {left:0px; line-height: 14px; width:60px; left:-25px;}
+    .in-brain .Frontal-Lobe a           {font-size: 14px;}
+    .in-brain .Temporal-Lobe            {left:20px; line-height: 14px; top:110px;}
+    .in-brain .Temporal-Lobe a          {font-size: 14px;}
+    .in-brain .Brain-Stem               {line-height: 14px; left:110px; top:115px; width:70px;}
+    .in-brain .Brain-Stem a             {font-size: 14px;}
+    .in-brain .Cerebellum               {top:50px; right:-40px;}
+     .in-brain .Cerebellum a            {font-size: 14px;}
+    .in-brain .Occipital-Lobe           {width:60px; right:-40px;}
+    .in-brain .Occipital-Lobe a         {font-size: 14px;}
+    .in-brain .Parietal-Lobe            {line-height: 14px; right:10px; top:4px; width:80px;}
+    .in-brain .Parietal-Lobe a          {font-size: 14px;}
+    .in-sec                             {padding-top:60px;}
+    .home-close                         {top:-50px; right:0px;  }
+    
+    .home-in-1                          {width:360px; margin: 0 auto; position: relative;}
+    .Frontal-Lobe                       {font-size: 14px; left:0px; top:20px; width:60px;}
+    .Parietal-Lobe                      {font-size: 14px; right:20px; top:20px; width:60px;}
+    .Temporal-Lobe                      {font-size: 14px; left:60px; top:195px; width:60px;}
+    .Brain-Stem                         {font-size: 14px; left:160px; bottom:20px; width:60px;}    
+    .Cerebellum                         {bottom: 68px; font-size: 14px; right: 0; width: 80px;}
+    .Occipital-Lobe                     {font-size: 14px; width:60px; right:25px;}
+    .Occipital-Lobe a                   {color:#fff;}
+
+	.readnote							{margin-left: 33%; width: 50%;}
+    
+   
+}
+
+@media only screen and (min-width: 320px) and (max-width: 360px) 
+{
+
+    .ans-sec                            {width:100%;}
+    .brain-sec                          {width:100%;}
+    .img-right                          {width: 60px;}
+    .img-right img                      {width: 100%;}
+    .popup-1                            {background-size: cover; font-size: 13px; height: 85px; line-height: 18px; width: 100px; padding-top: 15px;}
+    .popup-1 span                       {font-size: 14px;}
+    .popup-2                            {background-size: cover; font-size: 13px; height: 85px; line-height: 18px; width: 100px; padding-top: 15px;}
+    .popup-2 span                       {font-size: 14px;}
+    .close-1                            {height: 30px; width:30px; background-size:cover;}
+    .brain-in1 img                      {width:auto; max-width:100%;}
+    .brain-in-1 .Frontal-Lobe           {left:0; top:67px; font-size: 14px;}
+    .brain-in-1 .Temporal-Lobe          {font-size: 14px;  top: 135px; left: 75px}
+    .brain-in-1 .Parietal-Lobe          {width:60px; top:45px; right:100px; font-size: 14px; }
+    .brain-in-1 .Brain-Stem             {font-size: 14px;  bottom: 44px; right: 88px; width: 50px;}    
+    .brain-in-1 .Cerebellum             {bottom: 104px; font-size: 14px; right: 44px;}       
+    .brain-in-1 .Occipital-Lobe         {font-size: 14px; right: 28px; text-align: center; width: 75px;} 
+    .next-1                             {float: none; margin: 0 auto;}
+    .next-1 a                           {float: none; margin: 0 auto;}
+    .brain-in                           {margin-top: 0;}
+    .in-descriptioion                   {width:65%; padding-right: 30px;}
+    .in-descriptioion p                 {font-size: 20px; line-height:25px;}
+    .in-descriptioion ul li             {font-size:20px;}    
+    .brain-lis ul li a                  {height:30px;width:30px; background-size:cover; line-height: 30px; font-size: 16px;}
+    .active-ans a                       {height:30px;width:30px; background-size:cover !important;}
+    .brain-lis                          {padding-top:0px; width: auto;}
+    .brain-lis ul li                    {display: inline-block;}
+    .home-close                         {width: 40px; height: 40px; position: relative; float: right;}
+    .home-close img                     {width:100%;}
+    
+    .left-sec                           {width:83%; float: none; margin: 0px auto;}
+    .right-sec                          {width:280px; margin: 0 auto; float: none;}
+    .click-me                           {padding-left: 0px;}
+    .click-me-1                         {background-size: cover; width:90px; height:110px; font-size: 15px; line-height: 20px; padding-top:25px;}
+    .in-brain .Frontal-Lobe             {left:0px; line-height: 14px; width:60px; left:-25px;}
+    .in-brain .Frontal-Lobe a           {font-size: 14px;}
+    .in-brain .Temporal-Lobe            {left:20px; line-height: 14px; top:110px;}
+    .in-brain .Temporal-Lobe a          {font-size: 14px;}
+    .in-brain .Brain-Stem               {line-height: 14px; left:110px; top:115px; width:70px;}
+    .in-brain .Brain-Stem a             {font-size: 14px;}
+    .in-brain .Cerebellum               {top:50px; right:-40px;}
+     .in-brain .Cerebellum a            {font-size: 14px;}
+    .in-brain .Occipital-Lobe           {width:60px; right:-40px;}
+    .in-brain .Occipital-Lobe a         {font-size: 14px;}
+    .in-brain .Parietal-Lobe            {line-height: 14px; right:10px; top:4px; width:80px;}
+    .in-brain .Parietal-Lobe a          {font-size: 14px;}
+    .in-sec                             {padding-top:60px;}
+    .home-close                         {top:-50px;  }
+    
+    .home-in-1                          {width:320px;}
+    .Frontal-Lobe                       {font-size: 14px; left:0px; top:20px; width:60px;}
+    .Parietal-Lobe                      {font-size: 14px; right:20px; top:20px; width:60px;}
+    .Temporal-Lobe                      {font-size: 14px; left:40px; top:175px; width:60px;}
+    .Brain-Stem                         {font-size: 14px; left:130px; bottom:20px; width:60px;}    
+    .Cerebellum                         {bottom: 55px; font-size: 14px; right: 6px; width: 80px;}
+    .Occipital-Lobe                     {font-size: 14px; width:60px; right:25px;}
+    .Occipital-Lobe a                   {color:#fff;}    
+    
+    .wrapper-2                          {height: inherit;}
+    .wrapper-3                          {height: inherit;}
+    .wrapper-22                         {height: inherit;}
+    .wrapper-33                         {height: inherit;}
+    
+	.readnote							{width:150px;}
+    
+}

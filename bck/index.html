@@ -1,0 +1,839 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Brain</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+	    $("#toggle").click(function(){
+        $("nav").slideToggle(); 
+        $( this ).toggleClass( "highlight" );
+        });
+            
+            var bodyheight = $(window).resize();
+            $(".wrapper").height(bodyheight);
+
+            var bodyheight = $(window).height();
+            $(".wrapper").height(bodyheight);
+         
+            
+        $(".ans1,.ans2,.ans3,.ans4,.ans5,.ans6").on('click', function(){
+            //var chkans =  $(this).attr('rel'); 
+          //  var currque = ($(this).parent().attr('correct'));
+          //  var nxtque = parseInt(currque) + 1;
+          //  if(chkans==1) {
+          //  $(".popup-2").show(); 
+          //  $("#step3a").find("#que"+currque).addClass("active-ans");  
+         //   $("." + currque).hide();
+          //  $("." + nxtque).show();
+         //     } else {
+          //  $(".popup-1").show();    
+          //  }
+         // $(ans-sec)
+         var currid = $(".ans-secNew.active").attr('id'); //alert(currid);
+         var nxtque = parseInt(currid) + 1;
+         var chkans =  $(this).attr('rel');  
+         var test = $(".ans-secNew.active").attr('rel'); 
+         //alert(chkans);
+        // alert(test);
+       // alert(nxtque);
+         
+         if(chkans==test) {
+            $(".popup-2").show(); 
+            $("#step3a").find("#Quizque"+currid).addClass("active-ans"); 
+            $("#Quizque"+currid+" a").empty();
+            $("#" + currid).removeClass('active');
+            $("#" + nxtque).addClass('active');
+            $("#" + currid).hide(function() {
+                   $("#" + nxtque).fadeIn(100);
+                    if((nxtque)==23) {
+                         $(".brain-sec").hide();  
+                    }
+            });
+            
+         } else {
+            $(".popup-1").show();  
+         }
+        });            
+            
+        $(".close-1").click(function(){
+            $(".popup-1").hide();
+        });
+            
+//        $(".Brain-Stem").click(function(){
+//            $(".popup-2").show();
+//        });            
+            
+        $(".close-1").click(function(){
+            $(".popup-2").hide();
+        });
+      // Step 1 POPUP clicks starts//      
+        $(".step1a").click(function(){
+            $("#step2a").show();
+			
+        });      
+    
+        $(".step1b").click(function(){
+            $("#step2b").show();
+        }); 
+        
+        $(".step1c").click(function(){
+            $("#step2c").show();
+        });  
+        
+        $(".step1d").click(function(){
+            $("#step2d").show();
+        });  
+        
+        $(".step1e").click(function(){
+            $("#step2e").show();
+        });  
+        
+        $(".step1f").click(function(){
+            $("#step2f").show();
+        });  
+           
+      // Step 1 POPUP clicks ends//         
+        $(".home-close").click(function(){
+            $(".wrapper-2").hide();
+        });
+       // Quiz  popup start //     
+        $("#next1a a").click(function(){
+              $("#step2a").hide();
+             $("#step3a").show();
+			 $("#step3a").addClass('step2aFinal');
+             
+        });  
+        
+          $("#next1b a").click(function(){
+              $("#step2b").hide();
+              $("#step3a").show();
+              $("#step3a").addClass('step2bFinal');
+              $(".in-descriptioion").css({"border-color": "#9108c0", "border-width":"3px","border-style":"solid"});
+              $(".click-brain h2").css({"color":"#9108c0"}); 
+              $("#finalclose").attr("src", "img/close-6.png");
+        });  
+        
+          $("#next1c a").click(function(){
+              $("#step2c").hide();
+              $("#step3a").show();
+              $("#step3a").addClass('step2cFinal');
+              $(".in-descriptioion").css({"border-color": "#3dacd5 ", "border-width":"3px","border-style":"solid"});
+              $(".click-brain h2").css({"color":"#3dacd5 "}); 
+              $("#finalclose").attr("src", "img/close-1.png");
+        });  
+        
+          $("#next1d a").click(function(){
+              $("#step2d").hide();
+             $("#step3a").show();
+             $("#step3a").addClass('step2dFinal');
+              $(".in-descriptioion").css({"border-color": "#298b0d", "border-width":"3px","border-style":"solid"});
+              $(".click-brain h2").css({"color":"#298b0d"}); 
+              $("#finalclose").attr("src", "img/close-5.png");
+        });  
+        
+          $("#next1e a").click(function(){
+              $("#step2e").hide();
+             $("#step3a").show();
+             $("#step3a").addClass('step2eFinal');
+              $(".in-descriptioion").css({"border-color": "#e20e24", "border-width":"3px","border-style":"solid"});
+              $(".click-brain h2").css({"color":"#e20e24"}); 
+              $("#finalclose").attr("src", "img/close-4.png");
+        });  
+        
+          $("#next1f a").click(function(){
+              $("#step2f").hide();
+             $("#step3a").show();
+             $("#step3a").addClass('step2fFinal');
+              $(".in-descriptioion").css({"border-color": "#05329e", "border-width":"3px","border-style":"solid"});
+              $(".click-brain h2").css({"color":"#05329e"}); 
+              $("#finalclose").attr("src", "img/close-3.png");
+        });  
+        
+          // Quiz  popup ends //     
+            
+        $(".home-close").click(function(){
+            $(".wrapper-3").hide();
+        });
+           
+        $(".next-2 a").click(function(){
+            $(".wrapper-2").hide();
+        });  
+            
+            
+});
+        $(window).resize(function(){        
+            var bodyheight = $(window).height();
+            $(".wrapper").height(bodyheight);
+        });
+            
+    </script>
+</head>
+<body>
+<div class="wrapper wrapper-1">
+    <div class="container">
+        <div class="home">             
+            <div class="home-in-1">                
+                <div class="home-home-brain"><img src="img/brain.png" alt="" usemap="#Map">
+					<map name="Map">
+						<area shape="poly" coords="40,250" href="javascript:void(0)" class="Frontal-Lobe">
+						<area   class="Frontal-Lobe step1a" shape="poly"  coords="43,232,86,168,121,121,188,79,247,53,310,39,357,48,338,92,325,139,308,221,290,245,235,281,203,315,188,352,114,351,47,293" href="javascript:void(0)">
+						<area  class="Parietal-Lobe step1b" shape="poly" coords="380,38,494,72,586,127,639,190,620,227,591,258,577,281,526,278,473,270,448,248,446,219,433,212,412,214,390,213,350,213,318,228,321,206,339,157,338,123" href="javascript:void(0)">
+						<area  class="Temporal-Lobe step1c" shape="poly" coords="201,358,225,305,272,283,314,256,373,226,420,226,424,251,449,284,537,291,565,295,556,320,550,349,443,350,403,354,340,388,300,401,235,374" href="javascript:void(0)">
+						<area  class="Occipital-Lobe step1d" shape="poly" coords="574,307,601,270,623,238,650,207,673,217,679,248,682,296,675,339,653,350,619,345,573,340,556,351" href="javascript:void(0)">
+						<area  class="Cerebellum step1e" shape="poly" coords="395,373,436,356,520,362,600,355,638,357,626,381,603,419,560,449,496,465,441,442,428,399,394,389" href="javascript:void(0)">
+						<!--<area  class="Brain-Stem step1f" shape="poly" coords="355,397,385,372,396,401,416,412,435,440,483,469,530,467,540,509,564,585,505,587,466,545,431,492,420,468,388,453,356,416" href="javascript:void(0)">		-->
+                        <area  class="Brain-Stem" shape="poly" coords="355,397,385,372,396,401,416,412,435,440,483,469,530,467,540,509,564,585,505,587,466,545,431,492,420,468,388,453,356,416" href="javascript:void(0)">				
+					</map>
+                </div>
+                <div class="breain-sec-name">
+                    <div class="Frontal-Lobe step1a"><a href="javascript:void(0)">Frontal Lobe</a></div>
+                    <div class="Temporal-Lobe step1b"><a href="javascript:void(0)">Temporal Lobe</a></div>
+                    <!--<div class="Brain-Stem step1c"><a href="javascript:void(0)">Brain Stem</a></div> -->
+                    <div class="Cerebellum step1d"><a href="javascript:void(0)">Cerebellum</a></div>
+                    <div class="Occipital-Lobe step1e"><a href="javascript:void(0)">Occipital Lobe</a></div>
+                    <div class="Parietal-Lobe step1f"><a href="javascript:void(0)">Parietal Lobe</a></div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!---one popup-->
+    <div class="wrapper-2" id="step2a" style="display:none;">
+    <div class="container">
+        <div class="in-sec">
+             <div class="home-close"><a href="javascript:void(0)"><img src="img/close-2.png" alt="" ></a></div>
+            <!--left-->
+            <div class="left-sec">
+                <h1 class="in-heading">FRONTAL LOBE</h1>
+                <p>
+                   The frontal lobe helps us make decisions, make plans and solve problems. It tells us the right or wrong way to behave; for example, that we shouldn’t be rude to other people. It helps us talk, and to initiate or start things.  <br/>
+                Examples: <br/>
+                - Nan just says what she thinks now; when she used to be shy before.<br/>
+                - Dad doesn’t say much anymore at all now.<br/>
+                - When I ask Tony what he would like to eat, he says he doesn’t know.<br/>
+                - I ask Tom to put his shoes on, and even though he seems to understand, he just sits there.
+                </p>
+              <!--  <div class="in-img1">
+                    <img src="img/img-5.jpg" alt="">
+                </div> -->
+            </div>
+            <!--end left-->
+            <!--right-->
+            <div class="right-sec">                                
+                <div class="in-brain">
+                    <div class="home-home-brain"><img src="img/img-4.png" alt="" ></div>
+                    <div class="breain-sec-name">
+                        <div class="Frontal-Lobe"><a href="#">Frontal<br>Lobe</a></div>
+                        <div class="Temporal-Lobe"><a href="#">Temporal Lobe</a></div>
+                        <div class="Brain-Stem"><a href="#">Brain Stem</a></div>
+                        <div class="Cerebellum"><a href="#">Cerebellum</a></div>
+                        <div class="Occipital-Lobe"><a href="#">Occipital Lobe</a></div>
+                        <div class="Parietal-Lobe"><a href="#">Parietal Lobe</a></div>                       
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="click-me">
+                   <div class="click-me-img"><img src="img/img-1.png" alt=""></div>
+                   <div class="click-me-1">Click on each<br> part of the<br> brain to see<br><a href="">what it does</a></div>
+                   <div class="clear"></div>
+                </div>
+                <div class="next-2" id="next1a">
+                    <a href="#">Start Quiz</a>
+                </div>
+                <div class="home-right"><a href="index.html"><img src="img/img-3.png" alt=""></a></div>
+            </div>
+            <div class="clear"></div>
+            <!--end right-->
+        </div>
+    </div>
+</div>
+
+<div class="wrapper-2"  id="step2b"  style="display:none;">
+    <div class="container">
+        <div class="in-sec">
+             <div class="home-close"><a href="javascript:void(0)"><img src="img/close-6.png" alt="" ></a></div>
+            <!--left-->
+            <div class="left-sec">
+                <h1 class="in-heading">Parietal Lobe</h1>
+                <p> The parietal lobe helps us put actions in the right order, such as knowing to put our undies on before our t-shirt and jeans. It also helps us to know where our body is in space and how close we are to things. This helps us to walk around things in our path, and to pick things up.<br/>
+                 Examples:<br/>
+                - I know how to get dressed and make a cup of tea, but sometimes I do it in the wrong order or miss a step, like put my cardigan on before my t-shirt, or forget to add water to the cup. <br/>
+                - I’ve feel like I’ve become clumsier and keep tripping or knocking over things.
+                </p>
+               <!-- <div class="in-img1">
+                    <img src="img/img-17.png" alt=""> 
+                </div> -->
+            </div>
+            <!--end left-->
+            <!--right-->
+            <div class="right-sec">                                
+                <div class="in-brain">
+                    <div class="home-home-brain"><img src="img/img-4.png" alt="" ></div>
+                    <div class="breain-sec-name">
+                        <div class="Frontal-Lobe"><a href="#">Frontal<br>Lobe</a></div>
+                        <div class="Temporal-Lobe"><a href="#">Temporal Lobe</a></div>
+                        <div class="Brain-Stem"><a href="#">Brain Stem</a></div>
+                        <div class="Cerebellum"><a href="#">Cerebellum</a></div>
+                        <div class="Occipital-Lobe"><a href="#">Occipital Lobe</a></div>
+                        <div class="Parietal-Lobe"><a href="#">Parietal Lobe</a></div>                       
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="click-me">
+                   <div class="click-me-img"><img src="img/img-1.png" alt=""></div>
+                   <div class="click-me-1">Click on each<br> part of the<br> brain to see<br><a href="">what it does</a></div>
+                   <div class="clear"></div>
+                </div>
+                <div class="next-2"  id="next1b">
+                    <a href="#">Start Quiz</a>
+                </div>
+                <div class="home-right"><a href="index.html"><img src="img/img-3.png" alt=""></a></div>
+            </div>
+            <div class="clear"></div>
+            <!--end right-->
+        </div>
+    </div>
+</div>
+    
+    
+    <div class="wrapper-2"  id="step2c"  style="display:none;">
+    <div class="container">
+        <div class="in-sec">
+             <div class="home-close"><a href="javascript:void(0)"><img src="img/close-1.png" alt="" ></a></div>
+            <!--left-->
+            <div class="left-sec">
+                <h1 class="in-heading">Temporal Lobe</h1>
+                <p> The temporal lobe is where we make and keep our memories – it is how we remember things. 
+It also helps us to understand what people are saying, and to pay attention, or focus on things.<br/>
+                Examples:<br/>
+- I have real trouble remembering what I did five minutes ago.<br/>
+- I’ll be talking to her and I can see that her attention has just drifted off.<br/>
+- Mum doesn’t remember that dad has passed away, but remembers her wedding in lots of detail.<br/>
+- I sometimes say something and he doesn’t understand me, like yesterday she didn’t know what “TV” meant.<br/>
+                </p>
+               <!-- <div class="in-img1">
+                    <img src="img/img-18.png" alt="">
+                </div> -->
+            </div>
+            <!--end left-->
+            <!--right-->
+            <div class="right-sec">                                
+                <div class="in-brain">
+                    <div class="home-home-brain"><img src="img/img-4.png" alt="" ></div>
+                    <div class="breain-sec-name">
+                        <div class="Frontal-Lobe"><a href="#">Frontal<br>Lobe</a></div>
+                        <div class="Temporal-Lobe"><a href="#">Temporal Lobe</a></div>
+                        <div class="Brain-Stem"><a href="#">Brain Stem</a></div>
+                        <div class="Cerebellum"><a href="#">Cerebellum</a></div>
+                        <div class="Occipital-Lobe"><a href="#">Occipital Lobe</a></div>
+                        <div class="Parietal-Lobe"><a href="#">Parietal Lobe</a></div>                       
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="click-me">
+                   <div class="click-me-img"><img src="img/img-1.png" alt=""></div>
+                   <div class="click-me-1">Click on each<br> part of the<br> brain to see<br><a href="">what it does</a></div>
+                   <div class="clear"></div>
+                </div>
+                <div class="next-2"  id="next1c">
+                    <a href="#">Start Quiz</a>
+                </div>
+                <div class="home-right"><a href="index.html"><img src="img/img-3.png" alt=""></a></div>
+            </div>
+            <div class="clear"></div>
+            <!--end right-->
+        </div>
+    </div>
+</div>
+    
+    
+    <div class="wrapper-2"  id="step2d"  style="display:none;">
+    <div class="container">
+        <div class="in-sec">
+             <div class="home-close"><a href="javascript:void(0)"><img src="img/close-5.png" alt="" ></a></div>
+            <!--left-->
+            <div class="left-sec">
+                <h1 class="in-heading">Occipital Lobe</h1>
+                <p> The occipital lobe is responsible for making sense of the information that comes in from our eyes. For example the visual information that a round circle with two black dots in the middle is a face. <br/>
+                Example:<br/>
+                - Sometimes grandpa doesn’t recognise me, and once he told me to get out of his house.
+                </p>
+               <!-- <div class="in-img1">
+                    <img src="img/img-16.png" alt="">
+                </div> -->
+            </div>
+            <!--end left-->
+            <!--right-->
+            <div class="right-sec">                                
+                <div class="in-brain">
+                    <div class="home-home-brain"><img src="img/img-4.png" alt="" ></div>
+                    <div class="breain-sec-name">
+                        <div class="Frontal-Lobe"><a href="#">Frontal<br>Lobe</a></div>
+                        <div class="Temporal-Lobe"><a href="#">Temporal Lobe</a></div>
+                        <div class="Brain-Stem"><a href="#">Brain Stem</a></div>
+                        <div class="Cerebellum"><a href="#">Cerebellum</a></div>
+                        <div class="Occipital-Lobe"><a href="#">Occipital Lobe</a></div>
+                        <div class="Parietal-Lobe"><a href="#">Parietal Lobe</a></div>                       
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="click-me">
+                   <div class="click-me-img"><img src="img/img-1.png" alt=""></div>
+                   <div class="click-me-1">Click on each<br> part of the<br> brain to see<br><a href="">what it does</a></div>
+                   <div class="clear"></div>
+                </div>
+                <div class="next-2"  id="next1d">
+                    <a href="#">Start Quiz</a>
+                </div>
+                <div class="home-right"><a href="index.html"><img src="img/img-3.png" alt=""></a></div>
+            </div>
+            <div class="clear"></div>
+            <!--end right-->
+        </div>
+    </div>
+</div>
+    
+    <div class="wrapper-2"  id="step2e"  style="display:none;">
+    <div class="container">
+        <div class="in-sec">
+             <div class="home-close"><a href="javascript:void(0)"><img src="img/close-4.png" alt="" ></a></div>
+            <!--left-->
+            <div class="left-sec">
+                <h1 class="in-heading">Cerebellum</h1>
+                <p> The cerebellum looks after things that our bodies do automatically or without thinking – such as breathing and walking. It is responsible for balance and movement. <br/>
+                Example:<br/>
+- Mum finds it difficult to stand now without our support, otherwise she would fall over.
+                </p>
+             <!--   <div class="in-img1">
+                    <img src="img/img-15.png" alt="">
+                </div> -->
+            </div>
+            <!--end left-->
+            <!--right-->
+            <div class="right-sec">                                
+                <div class="in-brain">
+                    <div class="home-home-brain"><img src="img/img-4.png" alt="" ></div>
+                    <div class="breain-sec-name">
+                        <div class="Frontal-Lobe"><a href="#">Frontal<br>Lobe</a></div>
+                        <div class="Temporal-Lobe"><a href="#">Temporal Lobe</a></div>
+                        <div class="Brain-Stem"><a href="#">Brain Stem</a></div>
+                        <div class="Cerebellum"><a href="#">Cerebellum</a></div>
+                        <div class="Occipital-Lobe"><a href="#">Occipital Lobe</a></div>
+                        <div class="Parietal-Lobe"><a href="#">Parietal Lobe</a></div>                       
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="click-me">
+                   <div class="click-me-img"><img src="img/img-1.png" alt=""></div>
+                     
+                   <div class="click-me-1">Click on each<br> part of the<br> brain to see<br><a href="">what it does</a></div>
+                   <div class="clear"></div>
+                </div>
+                <div class="next-2"  id="next1e">
+                    <a href="#">Start Quiz</a>
+                </div>
+                <div class="home-right"><a href="index.html"><img src="img/img-3.png" alt=""></a></div>
+            </div>
+            <div class="clear"></div>
+            <!--end right-->
+        </div>
+    </div>
+</div>
+    
+    <div class="wrapper-2"  id="step2f"  style="display:none;">
+    <div class="container">
+        <div class="in-sec">
+             <div class="home-close"><a href="javascript:void(0)"><img src="img/close-3.png" alt="" ></a></div>
+            <!--left-->
+            <div class="left-sec">
+                <h1 class="in-heading">Brain Stem</h1>
+                <p>You use your frontal lobe nearly everyday. You use it to make decisions, such as what to eat or drink for breakfast in the morning, as well as for thinking or studying for a test. The frontal lobe is also where our personality is formed and where we can carry out higher mental processes such as planning. In addition, the frontal lobe is necessary to being able to speak fluently (without fault) and meaningfully.</p>
+                <div class="in-img1">
+                    <img src="img/img-14.png" alt="">
+                </div>
+            </div>
+            <!--end left-->
+            <!--right-->
+            <div class="right-sec">                                
+                <div class="in-brain">
+                    <div class="home-home-brain"><img src="img/img-4.png" alt="" ></div>
+                    <div class="breain-sec-name">
+                        <div class="Frontal-Lobe"><a href="#">Frontal<br>Lobe</a></div>
+                        <div class="Temporal-Lobe"><a href="#">Temporal Lobe</a></div>
+                        <div class="Brain-Stem"><a href="#">Brain Stem</a></div>
+                        <div class="Cerebellum"><a href="#">Cerebellum</a></div>
+                        <div class="Occipital-Lobe"><a href="#">Occipital Lobe</a></div>
+                        <div class="Parietal-Lobe"><a href="#">Parietal Lobe</a></div>                       
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="click-me">
+                   <div class="click-me-img"><img src="img/img-1.png" alt=""></div>
+                   <div class="click-me-1">Click on each<br> part of the<br> brain to see<br><a href="">what it does</a></div>
+                   <div class="clear"></div>
+                </div>
+                <div class="next-2"  id="next1f">
+                    <a href="#">Start Quiz</a>
+                </div>
+                <div class="home-right"><a href="index.html"><img src="img/img-3.png" alt=""></a></div>
+            </div>
+            <div class="clear"></div>
+            <!--end right-->
+        </div>
+    </div>
+</div>
+    
+<!---end one popup-->  
+    
+<!--two popup-->
+    <div class="wrapper-3" id="step3a" style="display:none;">
+    <div class="container">
+        <div class="in-sec">
+            <div class="home-close"><a href="javascript:void(0)"><img id="finalclose" src="img/close-2.png" alt="" ></a></div>
+            <div class="brain-lis">
+                <ul>
+                    <li id="Quizque11"><a href="#">1</a></li>
+                    <li id="Quizque12"><a href="#">2</a></li>
+                    <li id="Quizque13"><a href="#">3</a></li>
+                    <li id="Quizque14"><a href="#">4</a></li>
+                    <li id="Quizque15"><a href="#">5</a></li>
+                    <li id="Quizque16"><a href="#">6</a></li>
+                    <li id="Quizque17"><a href="#">7</a></li>
+                    <li id="Quizque18"><a href="#">8</a></li>
+                    <li id="Quizque19"><a href="#">9</a></li>
+                    <li id="Quizque20"><a href="#">10</a></li>
+                    <li id="Quizque21"><a href="#">11</a></li>
+                    <li id="Quizque22"><a href="#">12</a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="readnote">We use all these parts of our brain every day. Which part of the brain did you use to do the following today?</div>
+            <!--left-->
+            <div class="ans-sec">
+                
+                <div class="ans-secNew active" id="11" rel="2">
+                    
+                <div class="in-descriptioion" >
+                    <div class="qt-no ">1</div><p>Remembering that you had school today?</p>
+                    <!-- <ul>
+                        <li><a href="#">Speech</a></li>
+                        <li><a href="#">Reading</a></li>
+                        <li><a href="#">Memory</a></li>
+                        <li><a href="#">Visual processing</a></li>
+                        <li><a href="#">Auditory responses</a></li>
+                        <li><a href="#">Emotional responses</a></li>
+                    </ul> -->
+                    <div class="img-right">
+                        <img src="img/img-8.png" alt="">
+                    </div>
+                </div>  
+                <div class="click-brain">
+                    <h2>Answer by clicking<br>on the brain</h2>
+                </div>
+            </div>
+           
+                <div class="ans-secNew active" style="display:none;" id="12" rel="6">
+                <div class="in-descriptioion">
+                    <div class="qt-no ">2</div><p>Picking up your pencil to write a sentence?</p>
+                   <!-- <ul>
+                        <li><a href="#">Speech</a></li>
+                        <li><a href="#">Reading</a></li>
+                        <li><a href="#">Memory</a></li>
+                        <li><a href="#">Visual processing</a></li>
+                        <li><a href="#">Auditory responses</a></li>
+                        <li><a href="#">Emotional responses</a></li>
+                    </ul> -->
+                    <div class="img-right">
+                        <img src="img/img-8.png" alt="">
+                    </div>
+                </div>  
+                <div class="click-brain">
+                    <h2>Answer by clicking<br>on the brain</h2>
+                </div>
+            </div>
+            
+           
+                <div class="ans-secNew active" style="display:none;" id="13" rel="1">
+                <div class="in-descriptioion">
+                    <div class="qt-no ">3</div><p>Saying the words good morning out loud to your mum and dad?</p>
+                    <!-- <ul>
+                        <li><a href="#">Speech</a></li>
+                        <li><a href="#">Reading</a></li>
+                        <li><a href="#">Memory</a></li>
+                        <li><a href="#">Visual processing</a></li>
+                        <li><a href="#">Auditory responses</a></li>
+                        <li><a href="#">Emotional responses</a></li>
+                    </ul> -->
+                    <div class="img-right">
+                        <img src="img/img-8.png" alt="">
+                    </div>
+                </div>  
+                <div class="click-brain">
+                    <h2>Answer by clicking<br>on the brain</h2>
+                </div>
+            </div>
+            
+           
+                <div class="ans-secNew active" style="display:none;"  id="14" rel="2">
+                <div class="in-descriptioion">
+                    <div class="qt-no ">4</div><p>Understanding the words that your teacher is saying to you?</p>
+                   <!-- <ul>
+                        <li><a href="#">Speech</a></li>
+                        <li><a href="#">Reading</a></li>
+                        <li><a href="#">Memory</a></li>
+                        <li><a href="#">Visual processing</a></li>
+                        <li><a href="#">Auditory responses</a></li>
+                        <li><a href="#">Emotional responses</a></li>
+                    </ul> -->
+                    <div class="img-right">
+                        <img src="img/img-8.png" alt="">
+                    </div>
+                </div>  
+                <div class="click-brain">
+                    <h2>Answer by clicking<br>on the brain</h2>
+                </div>
+            </div>
+            
+          
+                <div class="ans-secNew active" style="display:none;"  id="15" rel="5">
+                <div class="in-descriptioion">
+                    <div class="qt-no ">5</div><p>Recognising your friend in the playground?</p>
+                   <!-- <ul>
+                        <li><a href="#">Speech</a></li>
+                        <li><a href="#">Reading</a></li>
+                        <li><a href="#">Memory</a></li>
+                        <li><a href="#">Visual processing</a></li>
+                        <li><a href="#">Auditory responses</a></li>
+                        <li><a href="#">Emotional responses</a></li>
+                    </ul> -->
+                    <div class="img-right">
+                        <img src="img/img-8.png" alt="">
+                    </div>
+                </div>  
+                <div class="click-brain">
+                    <h2>Answer by clicking<br>on the brain</h2>
+                </div>
+            </div>
+            
+           
+                <div class="ans-secNew active" style="display:none;"  id="16" rel="1">
+                <div class="in-descriptioion">
+                    <div class="qt-no ">6</div><p>Knowing that you can't take your clothes off at lunchtime and run around naked!?</p>
+                    <!-- <ul>
+                        <li><a href="#">Speech</a></li>
+                        <li><a href="#">Reading</a></li>
+                        <li><a href="#">Memory</a></li>
+                        <li><a href="#">Visual processing</a></li>
+                        <li><a href="#">Auditory responses</a></li>
+                        <li><a href="#">Emotional responses</a></li>
+                    </ul> -->
+                    <div class="img-right">
+                        <img src="img/img-8.png" alt="">
+                    </div>
+                </div>  
+                <div class="click-brain">
+                    <h2>Answer by clicking<br>on the brain</h2>
+                </div>
+            </div>
+            
+          
+                <div class="ans-secNew active" style="display:none;" id="17" rel="6">
+                <div class="in-descriptioion">
+                    <div class="qt-no ">7</div><p>Getting ready for school ?</p>
+                   <!-- <ul>
+                        <li><a href="#">Speech</a></li>
+                        <li><a href="#">Reading</a></li>
+                        <li><a href="#">Memory</a></li>
+                        <li><a href="#">Visual processing</a></li>
+                        <li><a href="#">Auditory responses</a></li>
+                        <li><a href="#">Emotional responses</a></li>
+                    </ul> -->
+                    <div class="img-right">
+                        <img src="img/img-8.png" alt="">
+                    </div>
+                </div>  
+                <div class="click-brain">
+                    <h2>Answer by clicking<br>on the brain</h2>
+                </div>
+            </div>
+            
+         
+                <div class="ans-secNew active" style="display:none;"  id="18" rel="1">
+                <div class="in-descriptioion">
+                    <div class="qt-no ">8</div><p>Talking about what you are going to do at the weekend?</p>
+                    <!-- <ul>
+                        <li><a href="#">Speech</a></li>
+                        <li><a href="#">Reading</a></li>
+                        <li><a href="#">Memory</a></li>
+                        <li><a href="#">Visual processing</a></li>
+                        <li><a href="#">Auditory responses</a></li>
+                        <li><a href="#">Emotional responses</a></li>
+                    </ul> -->
+                    <div class="img-right">
+                        <img src="img/img-8.png" alt="">
+                    </div>
+                </div>  
+                <div class="click-brain">
+                    <h2>Answer by clicking<br>on the brain</h2>
+                </div>
+            </div>
+            
+           
+                <div class="ans-secNew active" style="display:none;" id="19" rel="4">
+                <div class="in-descriptioion">
+                    <div class="qt-no ">9</div><p>Walking to school?</p>
+                    <!-- <ul>
+                        <li><a href="#">Speech</a></li>
+                        <li><a href="#">Reading</a></li>
+                        <li><a href="#">Memory</a></li>
+                        <li><a href="#">Visual processing</a></li>
+                        <li><a href="#">Auditory responses</a></li>
+                        <li><a href="#">Emotional responses</a></li>
+                    </ul> -->
+                    <div class="img-right">
+                        <img src="img/img-8.png" alt="">
+                    </div>
+                </div>  
+                <div class="click-brain">
+                    <h2>Answer by clicking<br>on the brain</h2>
+                </div>
+            </div>
+            
+          
+                <div class="ans-secNew active" style="display:none;" id="20" rel="1">
+                <div class="in-descriptioion">
+                    <div class="qt-no ">10</div><p>Making that decision to get out of bed and pull the covers back?</p>
+                   <!-- <ul>
+                        <li><a href="#">Speech</a></li>
+                        <li><a href="#">Reading</a></li>
+                        <li><a href="#">Memory</a></li>
+                        <li><a href="#">Visual processing</a></li>
+                        <li><a href="#">Auditory responses</a></li>
+                        <li><a href="#">Emotional responses</a></li>
+                    </ul> -->
+                    <div class="img-right">
+                        <img src="img/img-8.png" alt="">
+                    </div>
+                </div>  
+                <div class="click-brain">
+                    <h2>Answer by clicking<br>on the brain</h2>
+                </div>
+            </div>
+            
+          
+                <div class="ans-secNew active" style="display:none;" id="21" rel="2">
+                <div class="in-descriptioion">
+                    <div class="qt-no ">11</div><p>Remembering that you are doing a quiz right now?</p>
+                   <!-- <ul>
+                        <li><a href="#">Speech</a></li>
+                        <li><a href="#">Reading</a></li>
+                        <li><a href="#">Memory</a></li>
+                        <li><a href="#">Visual processing</a></li>
+                        <li><a href="#">Auditory responses</a></li>
+                        <li><a href="#">Emotional responses</a></li>
+                    </ul> -->
+                    <div class="img-right">
+                        <img src="img/img-8.png" alt="">
+                    </div>
+                </div>  
+                <div class="click-brain">
+                    <h2>Answer by clicking<br>on the brain</h2>
+                </div>
+            </div>
+            
+           
+                <div class="ans-secNew active" style="display:none;" id="22" rel="1">
+                <div class="in-descriptioion">
+                    <div class="qt-no ">12</div><p>Choosing what breakfast cereal to eat?</p>
+                    <!-- <ul>
+                        <li><a href="#">Speech</a></li>
+                        <li><a href="#">Reading</a></li>
+                        <li><a href="#">Memory</a></li>
+                        <li><a href="#">Visual processing</a></li>
+                        <li><a href="#">Auditory responses</a></li>
+                        <li><a href="#">Emotional responses</a></li>
+                    </ul> -->
+                    <div class="img-right">
+                        <img src="img/img-8.png" alt="">
+                    </div>
+                </div>  
+                <div class="click-brain">
+                    <h2>Answer by clicking<br>on the brain</h2>
+                </div>
+            </div>
+            
+          
+                <div class="ans-secNew active" style="display:none;" id="23" rel="6">
+                <div class="in-descriptioion">
+                    <div class="qt-no "></div><p>Congratulations, awesome work!</p>
+                    
+                    <div class="img-right">
+                        <img src="img/img-8.png" alt="">
+                    </div>
+                </div>  
+                <div class="click-brain">
+                    <div class="next-3">
+                    <a href="index.html">Start Again</a>
+                    </div>
+                </div>
+            </div>
+          </div>  
+            
+            <!--end left-->
+            <!--right-->
+            <div class="brain-sec">                                
+                <div class="brain-in">
+                     <!--  <div class="brain-in1"><img  src="img/img-13.png" alt=""></div>
+                     <div class="brain-in-1">
+                        <div class="Frontal-Lobe" ><a href="#" class="ans1" rel="1">Frontal<br>Lobe</a></div>
+                        <div class="Temporal-Lobe"><a href="#" class="ans3" rel="2">Temporal Lobe</a></div>
+                        <div class="Brain-Stem"><a href="#" class="ans6" rel="3">Brain Stem</a></div>
+                        <div class="Cerebellum"><a href="#" class="ans5" rel="4">Cerebellum</a></div>
+                        <div class="Occipital-Lobe"><a href="#" class="ans4" rel="5">Occipital Lobe</a></div>
+                        <div class="Parietal-Lobe"><a href="#" class="ans2" rel="6">Parietal Lobe</a></div> 
+                    </div> -->
+                    <div class="brain-in1"><img src="img/img-13.png" alt="" width="540" height="480" usemap="#Map2">
+                      <map name="Map2">
+                        <area  rel="1" shape="poly" coords="128,251,82,247,56,214,66,170,90,122,135,100,176,76,214,75,228,75,213,123,207,160,197,186,174,201,151,212,127,250" href="#" class="Frontal-Lobe ans1">
+                        <area   rel="6" shape="poly" coords="291,64,349,76,381,94,419,121,444,146,431,169,408,188,402,197,371,197,339,186,342,171,329,160,297,154,266,158,258,167,269,120,291,65" href="#" class="Parietal-Lobe ans3">
+                        <area   rel="2" shape="poly" coords="169,263,188,227,227,209,269,192,306,190,304,217,348,231,380,235,373,256,359,266,323,264,296,260,272,274,244,288,224,290,185,273" href="#" class="Temporal-Lobe ans6">
+                        <area  rel="5" shape="poly" coords="449,215,459,201,473,183,476,171,497,195,502,219,491,247,481,262,452,258,435,259,439,233" href="#" class="Occipital-Lobe ans4">
+                        <area   rel="4" shape="poly" coords="312,301,341,291,386,296,403,296,421,285,451,283,446,298,432,320,406,339,377,348,341,338,337,313,324,310,314,300" href="#" class="Cerebellum ans5">
+                         <area  rel="3"  shape="poly" coords="272,317,288,309,310,325,318,340,339,351,372,354,377,369,384,393,390,416,362,420,343,400,321,382,312,359,307,348,289,341,273,320" href="#" class="Brain-Stem">
+                      </map>
+                  </div>
+                    
+                    
+                    <div class="popup-1"><span>Oops!</span><br> Not that one.<br> Try  again.
+                        <a href="#" class="close-1">x</a>
+                    </div>
+                    <div class="popup-2"><span>Yes.</span><br> Right answer.<br> 
+                        <a href="#" class="close-1">x</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+          
+            <div class="clear"></div>
+            <!--end right-->
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--end two popup-->
+    
+</body>
+</html>

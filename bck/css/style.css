@@ -1,0 +1,230 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border: 0; vertical-align: baseline;background: transparent;}
+body {line-height: 1;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+ol, ul {list-style: none;}
+blockquote {quotes: none;}
+blockquote:before, blockquote:after {content: ''; content: none;}
+del {text-decoration: line-through;}
+/* tables still need 'cellspacing="0"' in the markup */
+table {border-collapse: collapse; border-spacing: 0;}
+a img { border: none; }
+a:hover{text-decoration:underline;}
+img{border:none; border:0px !important;}
+.padding{padding:0px;}
+body{margin:0px; padding:0px; font-family: 'Lato', sans-serif; overflow-x:hidden; -moz-text-size-adjust:auto;-webkit-text-size-adjust:auto; -ms-text-size-adjust:auto; text-size-adjust:auto; background: #000; color: #fff; overflow-x: hidden;
+}
+.clear{clear: both;}
+
+ul{list-style: none; margin: 0; padding: 0;}
+
+body                            { font-family: 'Arail',;}
+.wrapper                        {}
+.container                      {max-width: 1024px; width:100%; margin: 0 auto;}
+.wrapper-1                      {background: url('../img/bg22.jpg') no-repeat; background-position: 100% 100%; padding: 50px 0; background-size:100% 100%; box-sizing: padding-box;}
+.wrapper-2                      {background: rgba(0, 0, 0, 0) url("../img/bg-1.jpg") no-repeat scroll left top / 100% 100%; padding: 0; position: absolute; top: 0; width: 100%; }
+.wrapper-3                      {background: rgba(0, 0, 0, 0) url("../img/bg-1.jpg") no-repeat scroll left top / 100% 100%; padding: 0; position: absolute; top: 0; width: 100%; min-height: 100%; }
+.home                           {width: 100%; height: 100%; position: relative;}
+.home-home-brain                {text-align: center; margin: 0 auto;}
+.home-home-brain img            {width:auto; max-width:100%; margin: 0 auto; display: block;}
+.breain-sec-name                { top:0px; width: 100%; height: 100%; text-align: center;}
+.Frontal-Lobe                   {position: absolute; top:150px; left: 30px; width:150px; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 26px; text-transform: capitalize;}
+.Frontal-Lobe a                 {color: #f1750a; text-decoration: none; font-family: 'Montserrat', sans-serif; font-weight: 700;}
+.Temporal-Lobe                  {position: absolute; top:385px; width:150px; left: 230px; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 26px; text-transform: capitalize;}
+.Temporal-Lobe a                {color: #1086b2; text-decoration: none; font-family: 'Montserrat', sans-serif; font-weight: 700;}
+.Brain-Stem                     {position: absolute; bottom:50px; width:100px; left: 480px; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 26px; text-transform: capitalize;}
+.Brain-Stem a                   {color: #28468c; text-decoration: none; font-family: 'Montserrat', sans-serif; font-weight: 700;}
+.Cerebellum                     {position: absolute; bottom:170px; width:100px; right: 150px; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 26px; text-transform: capitalize;}
+.Cerebellum a                   {color: #d40522; text-decoration: none; font-family: 'Montserrat', sans-serif; font-weight: 700;}
+.Occipital-Lobe                 {position: absolute; bottom:50%; width:125px; right: 40px; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 26px; text-transform: capitalize;}
+.Occipital-Lobe a               {color: #34a315; text-decoration: none; font-family: 'Montserrat', sans-serif; font-weight: 700;}
+.Parietal-Lobe                  {position: absolute; top:15px; width:100px; right: 245px; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 26px; text-transform: capitalize;}
+.Parietal-Lobe a                {color: #9b4bce; text-decoration: none; font-family: 'Montserrat', sans-serif; font-weight: 700;}
+.home-close                     {position: absolute; top:10px; right:10px;}
+.detail-2                       {}
+
+.in-sec                         {position: relative; padding: 0px 0 40px 0;}
+.left-sec                       {width:46%; float: left; border:solid 3px #f98116; border-radius: 20px; background: #fdf8f3; position: relative; margin: 45px 0 0px 25px;}
+.in-heading                     {background: #f98116; font-family: 'Glegoo', serif; color: #fff; height: 50px; line-height: 50px; text-transform: uppercase; border-top-left-radius: 10px; border-top-right-radius: 10px; text-align: center;}
+.left-sec p                     {padding: 20px 25px; font-size: 21px; color: #221c03; font-family: 'Lato', sans-serif; line-height: 30px;}
+.in-img1                        {width: 100%; text-align: center; padding: 25px 0;}
+.in-img1 img                    {width:auto; max-width:100%;}
+
+.right-sec                      {float: left; position: relative; width: 48%; margin: 40px 0 0 0;}
+.in-brain                       {position: relative; width: 100%; height: 100%; line-height: 18px;}
+.in-brain .Frontal-Lobe         {position: relative; top:40px; left:40px; width: 80px;}
+.in-brain .Frontal-Lobe a       {font-size: 19px;}
+.in-brain .Temporal-Lobe        {position: relative; top:150px; left:95px; width: 95px;}
+.in-brain .Temporal-Lobe a      {font-size: 19px;}
+.in-brain .Brain-Stem           {position: relative; top:160px; left:190px; width: 95px;}
+.in-brain .Brain-Stem a         {font-size: 19px;}
+.in-brain .Cerebellum           {position: relative; top:75px; right:-10px; width: 115px; float: right;}
+.in-brain .Cerebellum a         {font-size: 19px;}
+.in-brain .Occipital-Lobe       {bottom: 55%; right:-20px; width: 90px;}
+.in-brain .Occipital-Lobe a     {font-size: 19px;}
+.in-brain .Parietal-Lobe        { width: 115px; right:45px; top:15px;}
+.in-brain .Parietal-Lobe a      {font-size: 19px;}
+.click-me                       {padding: 0 0 0 60px;}
+.click-me-img                   {float: left;}
+.click-me-1                     {float:left; width:208px; height: 175px; padding: 35px 40px 0 40px; color: #f98116; background: url('../img/img-2.png') no-repeat; font-size: 26px;line-height: 34px;text-align: center; margin: 50px 0 0 0;}
+.click-me-1 a                   {text-decoration: none;color: #f98116;}
+.in-brain .breain-sec-name      {width: 95%; position: absolute;}
+.home-right                     {float: right; margin: 25px 0 0 0;}
+
+.ans-sec                        {float: left; width: 48%; float: left;}
+.brain-sec                      {float: left; width: 48%; float: left; position: relative;}
+.brain-lis                      {width:100%; padding: 3%; margin-bottom: 50px;}
+.brain-lis ul                   {}
+.brain-lis ul li a              {width: 45px; height: 45px; background: url('../img/img-7.png') no-repeat; font-family: 'Montserrat', sans-serif; text-decoration: none; text-align: center; line-height: 45px; font-size:20px; color: #fff; display: block; float: left; margin:0 3px 0 0;}
+.active-ans a                   { background: url('../img/img-6.png') no-repeat !important; display: block; }
+.in-descriptioion               {width:75%; border:solid  5px #f67e0f; border-radius: 20px; padding: 20px 60px 70px 20px; margin: 0 0 0 30px; background: #fdf8f3; position: relative;}
+.in-descriptioion p             {font-size: 26px; color: #201042; line-height: 34px; margin: 0 0 30px 0;}
+.in-descriptioion ul            {}
+.in-descriptioion ul li         {width:100%; background: url(../img/dot.jpg) no-repeat 0px 10px; padding-left: 20px; font-size: 26px; color: #201042; margin: 10px 0; }
+.in-descriptioion ul li a       {text-decoration: none;color: #201042;}
+.click-brain                    {width:100%;}
+.click-brain h2                 {font-family: 'Montserrat', sans-serif; line-height: 30px; font-size: 26px;color: #f67e0f; text-align: center; padding: 20px 0; text-shadow: 2px 2px 2px #fff; }
+.img-right                      { position: absolute; bottom: -4px; right:-25px;}
+.qt-no                          {width:88px; height: 88px; background: url('../img/img-9.png') no-repeat; text-shadow: 2px 2px 2px #000; font-family: 'Montserrat', sans-serif; line-height: 88px; text-align: center; font-size: 51px; margin-left: -35px; margin-top: -64px; float: left;}
+.brain-in                       {margin-top:-80px; position: relative; width: 100%; height: 100%;}
+.brain-in-1                     {position: absolut; height: 100%; width:100%; top:0; left:0; display: none;}
+.brain-in-1 .Frontal-Lobe       {text-align: center; color: #fff; font-size: 19px; top:125px; left: 15px;}
+.brain-in-1 .Frontal-Lobe a     {color: #fff;}
+.brain-in-1 .Parietal-Lobe      {color: #fff; font-size: 19px; right: 104px; text-align: center; top: 80px;}
+.brain-in-1 .Parietal-Lobe a    {color: #fff;}
+.brain-in-1 .Brain-Stem         {bottom: 80px; color: #fff; font-size: 19px; left: auto; right: 93px; text-align: center;}
+.brain-in-1 .Brain-Stem  a      {color: #fff;}
+.brain-in-1 .Temporal-Lobe      {color: #fff; font-size: 19px; left: 154px; text-align: center; top: 251px; width:100px;}
+.brain-in-1 .Temporal-Lobe  a   {color: #fff;}
+.brain-in-1 .Cerebellum         {right: 85px; font-size: 19px;}
+.brain-in-1 .Cerebellum a       {color: #fff;}
+.brain-in-1 .Occipital-Lobe     {width:110px; right: 0px; font-size: 19px; text-align: center;}
+.brain-in-1 .Occipital-Lobe a   {color: #fff; }
+.next-1                         {float: right; margin: 45px 0 0 0;}
+.next-1 a                       {display: block; width: 220px;height: 74px;line-height: 74px; text-align: center; background: url('../img/img-10.png') no-repeat; font-size: 26px; color: #fff; text-shadow: 2px 2px 2px #000; font-family: 'Montserrat', sans-serif; text-decoration: none;text-decoration:none;}
+.popup-1                        {display: none; width:177px; height: 148px; background: url('../img/img-12.png') no-repeat; position: absolute; top:70px;left: 135px; text-align: center; font-size: 23px; color: #3ca1fe; font-family: 'Montserrat', sans-serif; text-shadow: 2px 1px 1px #2b2b2b; line-height: 26px; padding: 30px 0 0 0;}
+.popup-1 span                   {font-size: 26px; font-style: italic; ; }
+.close-1                        {position: absolute; bottom:0; right:0; background: url('../img/img-11.png') no-repeat; width: 47px; height: 47px; display: block; font-size: 0px;}
+.popup-2                        {display: none; width:177px; height: 148px; background: url('../img/img-12.png') no-repeat; position: absolute; top:70px;left: 135px; text-align: center; font-size: 23px; color: #3ca1fe; font-family: 'Montserrat', sans-serif; text-shadow: 2px 1px 1px #2b2b2b; line-height: 26px; padding: 30px 0 0 0;}
+.popup-2 span                   {font-size: 26px; font-style: italic; ; }
+.next-2                         {float: left; margin: 45px 0 0 40px;}
+.next-2 a                       {display: block; width: 220px;height: 74px;line-height: 74px; text-align: center; background: url('../img/img-10.png') no-repeat; font-size: 26px; color: #fff; text-shadow: 2px 2px 2px #000;text-decoration:none; }
+.next-3                         {float: left; margin: 45px 0 0 40px;}
+.next-3 a                       {display: block; width: 220px;height: 74px;line-height: 74px; text-align: center; background: url('../img/img-10.png') no-repeat; font-size: 26px; color: #fff; text-shadow: 2px 2px 2px #000; text-decoration:none;}
+.brain-in1                      {}
+
+
+
+.wrapper-11                     {background: url('../img/bg.jpg') no-repeat; background-position: 100% 100%; padding: 50px 0; background-size:100% 100%; box-sizing: padding-box;}
+.wrapper-22                     {background: rgba(0, 0, 0, 0) url("../img/bg-2.jpg") no-repeat scroll left top / 100% 100%; padding: 0; position: absolute; top: 0; width: 100%; min-height: 100%;}
+.wrapper-33                     {background: rgba(0, 0, 0, 0) url("../img/bg-2.jpg") no-repeat scroll left top / 100% 100%; padding: 0; position: absolute; top: 0; width: 100%; min-height: 100%;}
+.wrapper-22 .left-sec           {background: #f3f9fd;  border: 3px solid #3dacd5;}
+.wrapper-22 .in-heading         {background: #3dacd5;}
+.wrapper-33 .in-descriptioion   {border: 3px solid #3dacd5;}
+
+.wrapper-111                     {background: url('../img/img-31.jpg') no-repeat; background-position: 100% 100%; padding: 50px 0; background-size:100% 100%; box-sizing: padding-box;}
+.wrapper-222                     {background: rgba(0, 0, 0, 0) url("../img/img-37.jpg") no-repeat scroll left top / 100% 100%; padding: 0; position: absolute; top: 0; width: 100%;}
+.wrapper-333                     {background: rgba(0, 0, 0, 0) url("../img/img-37.jpg") no-repeat scroll left top / 100% 100%; padding: 0; position: absolute; top: 0; width: 100%; min-height: 100%;}
+.wrapper-222 .left-sec           {background: #f3f9fd;  border: 3px solid #1c397d;}
+.wrapper-222 .in-heading         {background: #1c397d;}
+.wrapper-333 .in-descriptioion   {border: 3px solid #1c397d;}
+
+.wrapper-1111                     {background: url('../img/img-32.jpg') no-repeat; background-position: 100% 100%; padding: 50px 0; background-size:100% 100%; box-sizing: padding-box;}
+.wrapper-2222                     {background: rgba(0, 0, 0, 0) url("../img/img-36.jpg") no-repeat scroll left top / 100% 100%; padding: 0; position: absolute; top: 0; width: 100%;}
+.wrapper-3333                     {background: rgba(0, 0, 0, 0) url("../img/img-36.jpg") no-repeat scroll left top / 100% 100%; padding: 0; position: absolute; top: 0; width: 100%; min-height: 100%;}
+.wrapper-2222 .left-sec           {background: #f3f9fd;  border: 3px solid #e72a3c;}
+.wrapper-2222 .in-heading         {background: #e72a3c;}
+.wrapper-3333 .in-descriptioion   {border: 3px solid #e72a3c;}
+
+.wrapper-11111                    {background: url('../img/img-30.jpg') no-repeat; background-position: 100% 100%; padding: 50px 0; background-size:100% 100%; box-sizing: padding-box;}
+.wrapper-22222                    {background: rgba(0, 0, 0, 0) url("../img/img-38.jpg") no-repeat scroll left top / 100% 100%; padding: 0; position: absolute; top: 0; width: 100%;}
+.wrapper-33333                    {background: rgba(0, 0, 0, 0) url("../img/img-38.jpg") no-repeat scroll left top / 100% 100%; padding: 0; position: absolute; top: 0; width: 100%; min-height: 100%;}
+.wrapper-22222 .left-sec          {background: #f3f9fd;  border: 3px solid #298b0d;}
+.wrapper-22222 .in-heading        {background: #298b0d;}
+.wrapper-33333 .in-descriptioion  {border: 3px solid #298b0d;}
+
+.wrapper-111111                    {background: url('../img/img-33.jpg') no-repeat; background-position: 100% 100%; padding: 50px 0; background-size:100% 100%; box-sizing: padding-box;}
+.wrapper-222222                    {background: rgba(0, 0, 0, 0) url("../img/img-35.jpg") no-repeat scroll left top / 100% 100%; padding: 0; position: absolute; top: 0; width: 100%;}
+.wrapper-333333                    {background: rgba(0, 0, 0, 0) url("../img/img-35.jpg") no-repeat scroll left top / 100% 100%; padding: 0; position: absolute; top: 0; width: 100%; min-height: 100%;}
+.wrapper-222222 .left-sec          {background: #f3f9fd;  border: 3px solid #9108c0;}
+.wrapper-222222 .in-heading        {background: #9108c0;}
+.wrapper-333333 .in-descriptioion  {border: 3px solid #9108c0;}
+
+.brain-in1 img                     {z-index: 2;}
+
+.wrapper-222222 .click-me-1        {background: url('../img/img-20.png') no-repeat; color: #9108c0;}
+.wrapper-222222 .click-me-1 a      {color: #9108c0;}
+.wrapper-333333 .click-brain h2    {color: #9108c0;}
+
+.wrapper-22222 .click-me-1        {background: url('../img/img-23.png') no-repeat; color: #298b0d;}
+.wrapper-22222 .click-me-1 a      {color: #298b0d;}
+.wrapper-33333 .click-brain h2    {color: #298b0d;}
+
+.wrapper-2222 .click-me-1        {background: url('../img/img-21.png') no-repeat; color: #e20e24;}
+.wrapper-2222 .click-me-1 a      {color: #e20e24;}
+.wrapper-3333 .click-brain h2    {color: #e20e24;}
+
+.wrapper-22 .click-me-1        {background: url('../img/img-19.png') no-repeat; color: #36abd6;}
+.wrapper-22 .click-me-1 a      {color: #36abd6;}
+.wrapper-33 .click-brain h2    {color: #36abd6;}
+
+.wrapper-222 .click-me-1        	{background: url('../img/img-22.png') no-repeat; color: #05329e;}
+.wrapper-222 .click-me-1 a      	{color: #05329e;}
+.wrapper-333 .click-brain h2    	{color: #05329e;}
+
+
+#step2c.wrapper-2					{background-attachment: scroll !important; background-clip: border-box !important;  background-color: rgba(0, 0, 0, 0) !important;
+    background-image: url("../img/bg-2.jpg") !important;  background-origin: padding-box !important;  background-position: 100% 100%; background-repeat: no-repeat !important;
+    background-size: 100% 100%; padding: 50px 0; width: 100%;}
+#step2c.wrapper-2 .click-me-1        {background: url('../img/img-19.png') no-repeat; color: #3dacd5;}
+#step2c.wrapper-2 .click-me-1 a	     {color: #3dacd5;}
+#step2c.wrapper-2 .in-heading        {background: #3dacd5 none repeat scroll 0 0;}
+#step2c.wrapper-2 .left-sec 		 {border: 3px solid #3dacd5;}
+
+#step2f.wrapper-2					{background-attachment: scroll !important; background-clip: border-box !important;  background-color: rgba(0, 0, 0, 0) !important;
+    background-image: url("../img/img-37.jpg") !important;  background-origin: padding-box !important;  background-position: 100% 100%; background-repeat: no-repeat !important;
+    background-size: 100% 100%; padding: 50px 0; width: 100%;}
+#step2f.wrapper-2 .click-me-1        {background: url('../img/img-22.png') no-repeat; color: #05329e;}
+#step2f.wrapper-2 .click-me-1 a	     {color: #05329e;}
+#step2f.wrapper-2 .in-heading        {background: #05329e none repeat scroll 0 0;}
+#step2f.wrapper-2 .left-sec 		 {border: 3px solid #05329e;}
+
+#step2e.wrapper-2					{background-attachment: scroll !important; background-clip: border-box !important;  background-color: rgba(0, 0, 0, 0) !important;
+    background-image: url("../img/img-32.jpg") !important;  background-origin: padding-box !important;  background-position: 100% 100%; background-repeat: no-repeat !important;
+    background-size: 100% 100%; padding: 50px 0; width: 100%;}
+#step2e.wrapper-2 .click-me-1        {background: url('../img/img-21.png') no-repeat; color: #e20e24;}
+#step2e.wrapper-2 .click-me-1 a	     {color: #e20e24;}
+#step2e.wrapper-2 .in-heading        {background: #e20e24 none repeat scroll 0 0;}
+#step2e.wrapper-2 .left-sec 		 {border: 3px solid #e20e24;}
+
+#step2d.wrapper-2					{background-attachment: scroll !important; background-clip: border-box !important;  background-color: rgba(0, 0, 0, 0) !important;
+    background-image: url("../img/img-30.jpg") !important;  background-origin: padding-box !important;  background-position: 100% 100%; background-repeat: no-repeat !important;
+    background-size: 100% 100%; padding: 50px 0; width: 100%;}
+#step2d.wrapper-2 .click-me-1        {background: url('../img/img-23.png') no-repeat; color: #298b0d;}
+#step2d.wrapper-2 .click-me-1 a	     {color: #298b0d;}
+#step2d.wrapper-2 .in-heading        {background: #298b0d none repeat scroll 0 0;}
+#step2d.wrapper-2 .left-sec 		 {border: 3px solid #298b0d;}
+
+#step2d.wrapper-2					{background-attachment: scroll !important; background-clip: border-box !important;  background-color: rgba(0, 0, 0, 0) !important;
+    background-image: url("../img/img-30.jpg") !important;  background-origin: padding-box !important;  background-position: 100% 100%; background-repeat: no-repeat !important;
+    background-size: 100% 100%; padding: 50px 0; width: 100%;}
+#step2d.wrapper-2 .click-me-1        {background: url('../img/img-23.png') no-repeat; color: #298b0d;}
+#step2d.wrapper-2 .click-me-1 a	     {color: #298b0d;}
+#step2d.wrapper-2 .in-heading        {background: #298b0d none repeat scroll 0 0;}
+#step2d.wrapper-2 .left-sec 		 {border: 3px solid #298b0d;}
+
+#step2b.wrapper-2					{background-attachment: scroll !important; background-clip: border-box !important;  background-color: rgba(0, 0, 0, 0) !important;
+    background-image: url("../img/img-35.jpg") !important;  background-origin: padding-box !important;  background-position: 100% 100%; background-repeat: no-repeat !important;
+    background-size: 100% 100%; padding: 50px 0; width: 100%;}
+#step2b.wrapper-2 .click-me-1        {background: url('../img/img-20.png') no-repeat; color: #9108c0;}
+#step2b.wrapper-2 .click-me-1 a	     {color: #9108c0;}
+#step2b.wrapper-2 .in-heading        {background: #9108c0 none repeat scroll 0 0;}
+#step2b.wrapper-2 .left-sec 		 {border: 3px solid #9108c0;}
+
+.step2aFinal                      {background: rgba(0, 0, 0, 0) url("../img/bg-1.jpg") no-repeat scroll left top / 100% 100% ;  padding: 0; position: absolute; top: 0; width: 100%; min-height: 100%; }
+.step2bFinal                      {background: rgba(0, 0, 0, 0) url("../img/img-35.jpg") no-repeat scroll left top / 100% 100%; padding: 0; position: absolute; top: 0; width: 100%; min-height: 100%; }
+.step2cFinal                      {background: rgba(0, 0, 0, 0) url("../img/bg-2.jpg") no-repeat scroll left top / 100% 100%; padding: 0; position: absolute; top: 0; width: 100%; min-height: 100%; }
+.step2dFinal                      {background: rgba(0, 0, 0, 0) url("../img/img-38.jpg") no-repeat scroll left top / 100% 100%; padding: 0; position: absolute; top: 0; width: 100%; min-height: 100%; }
+.step2eFinal                      {background: rgba(0, 0, 0, 0) url("../img/img-36.jpg") no-repeat scroll left top / 100% 100%; padding: 0; position: absolute; top: 0; width: 100%; min-height: 100%; }
+.step2fFinal                      {background: rgba(0, 0, 0, 0) url("../img/img-37.jpg") no-repeat scroll left top / 100% 100%; padding: 0; position: absolute; top: 0; width: 100%; min-height: 100%; }
+
+.readnote						{width:400px; background:#3245a6; border-radius:5px; padding:15px; margin:0 0 0 50px; color:#fff;  border-radius: 5px; position:relative; top:-50px;}
